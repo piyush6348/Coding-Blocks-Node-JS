@@ -3,7 +3,7 @@
 // 1.) If it's getting executed in an object then it will have `this` pointing to that object.
 // 2.) If it's getting executed globally then it will have `this` pointing to window.
 
-console.log("\n\n\n------------------Closures---------------\n\n");
+console.log("\n\n\n------------------This---------------\n\n");
 
 function globalThis() {
     console.log(this);
