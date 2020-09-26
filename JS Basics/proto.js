@@ -38,3 +38,6 @@ console.log(obj3);
 
 console.log(obj3.__proto__ == obj2);
 console.log(obj3.__proto__.__proto__ == obj1);
+
+// This is the default proto of javascript added to all objects.
+console.log(obj3.__proto__.__proto__.__proto__ == obj1.__proto__);
