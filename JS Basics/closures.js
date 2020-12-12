@@ -36,3 +36,8 @@ console.log(typeof (x2)); // function
 let y = x2("param 2");
 console.log(typeof (y)); // function
 let z = y("param 3");
+
+/*
+    When a function is defined inside another function then the inner
+    function is said to have closure scope.
+*/
